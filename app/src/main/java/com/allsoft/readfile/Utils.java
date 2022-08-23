@@ -16,6 +16,7 @@ public class Utils {
             int readExtStorage = ContextCompat.checkSelfPermission(context,
                     Manifest.permission.READ_EXTERNAL_STORAGE);
             return readExtStorage == PackageManager.PERMISSION_GRANTED;
+            // Hihi
         }
 
     }
